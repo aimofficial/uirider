@@ -1,0 +1,1985 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.uidrive.user"
+4    android:versionCode="1"
+5    android:versionName="1.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission
+11-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:5:5-9:11
+12        android:name="android.permission.CAMERA"
+12-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:6:9-49
+13        android:required="false" />
+13-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:7:9-33
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:10:5-67
+14-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:10:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:11:5-79
+15-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:11:22-76
+16    <uses-permission
+16-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:12:5-14:38
+17        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+17-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:13:9-65
+18        android:maxSdkVersion="32" />
+18-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:14:9-35
+19    <uses-permission
+19-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:15:5-16:38
+20        android:name="android.permission.READ_EXTERNAL_STORAGE"
+20-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:15:22-77
+21        android:maxSdkVersion="32" />
+21-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:16:9-35
+22    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+22-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:17:5-76
+22-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:17:22-73
+23    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+23-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:18:5-98
+23-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:18:22-95
+24    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+24-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:19:5-71
+24-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:19:22-68
+25    <uses-permission android:name="android.permission.GET_TASKS" />
+25-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:20:5-68
+25-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:20:22-65
+26    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:21:5-75
+26-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:21:22-72
+27    <uses-permission android:name="android.permission.READ_CONTACTS" />
+27-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:22:5-72
+27-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:22:22-69
+28    <uses-permission android:name="android.permission.VIBRATE" />
+28-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:23:5-66
+28-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:23:22-63
+29    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- voip permission -->
+29-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:24:5-78
+29-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:24:22-75
+30    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+30-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:25:5-71
+30-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:25:22-68
+31    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+31-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:26:5-80
+31-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:26:22-77
+32    <!--
+33         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+34         Google Maps Android API v2, but are recommended.
+35    -->
+36    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+36-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:31:5-79
+36-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:31:22-76
+37    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+37-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:32:5-81
+37-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:32:22-78
+38    <!--
+39   this below permission is very important for Firebase push notification, when app was killed
+40   if we delete this below permission accidentally, app wont receive background notification
+41    -->
+42    <uses-permission android:name="android.permission.WAKE_LOCK" />
+42-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:37:5-68
+42-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:37:22-65
+43    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+43-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:38:5-75
+43-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:38:22-72
+44    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+44-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:39:5-82
+44-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:39:22-79
+45
+46    <uses-feature
+46-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:41:5-43:36
+47        android:name="android.hardware.telephony"
+47-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:42:9-50
+48        android:required="false" />
+48-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:43:9-33
+49    <uses-feature
+49-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:44:5-46:36
+50        android:name="android.hardware.camera"
+50-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:45:9-47
+51        android:required="false" />
+51-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:46:9-33
+52
+53    <permission
+53-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:48:5-50:47
+54        android:name="com.newtaxiprime.user.C2D_MESSAGE"
+54-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:49:9-57
+55        android:protectionLevel="signature" />
+55-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:50:9-44
+56
+57    <queries>
+57-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:52:5-58:15
+58        <intent>
+58-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:53:9-57:18
+59            <action android:name="android.intent.action.PICK" />
+59-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:54:13-65
+59-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:54:21-62
+60
+61            <data android:mimeType="vnd.android.cursor.dir/image" />
+61-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:56:19-66
+62        </intent>
+63        <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+64        <package android:name="com.android.chrome" /> <!-- Added to check the default browser that will host the AuthFlow. -->
+64-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:11:9-54
+64-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:11:18-51
+65        <intent>
+65-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:13:9-17:18
+66            <action android:name="android.intent.action.VIEW" />
+66-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:17-69
+66-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:25-66
+67
+68            <data android:scheme="http" />
+68-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+69        </intent>
+70
+71        <package android:name="com.venmo" />
+71-->[com.braintreepayments.api:braintree:3.20.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/1bab250a02217b4de01d959acf3c7dcc/transformed/jetified-braintree-3.20.1/AndroidManifest.xml:17:9-45
+71-->[com.braintreepayments.api:braintree:3.20.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/1bab250a02217b4de01d959acf3c7dcc/transformed/jetified-braintree-3.20.1/AndroidManifest.xml:17:18-42
+72        <package android:name="com.paypal.android.p2pmobile" />
+72-->[com.braintreepayments.api:braintree:3.20.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/1bab250a02217b4de01d959acf3c7dcc/transformed/jetified-braintree-3.20.1/AndroidManifest.xml:18:9-64
+72-->[com.braintreepayments.api:braintree:3.20.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/1bab250a02217b4de01d959acf3c7dcc/transformed/jetified-braintree-3.20.1/AndroidManifest.xml:18:18-61
+73        <package android:name="com.facebook.katana" />
+73-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:16:9-55
+73-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:16:18-52
+74
+75        <intent>
+75-->[com.braintreepayments:browser-switch:1.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/c868252b3f88be95b62fff1998d2b688/transformed/jetified-browser-switch-1.2.0/AndroidManifest.xml:12:9-18:18
+76            <action android:name="android.intent.action.VIEW" />
+76-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:17-69
+76-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:25-66
+77
+78            <category android:name="android.intent.category.BROWSABLE" />
+78-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:17-78
+78-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:27-75
+79
+80            <data android:scheme="https" />
+80-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+81        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+82        <package android:name="com.google.android.apps.maps" />
+82-->[com.google.android.gms:play-services-maps:19.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/fd950991b9fd04f84ec25fd56407c306/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:29:7-61
+82-->[com.google.android.gms:play-services-maps:19.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/fd950991b9fd04f84ec25fd56407c306/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:29:16-59
+83    </queries>
+84
+85    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+85-->[com.google.android.libraries.places:places:4.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/50705441130a30779c9b1f8339e18a20/transformed/jetified-places-4.2.0/AndroidManifest.xml:13:5-76
+85-->[com.google.android.libraries.places:places:4.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/50705441130a30779c9b1f8339e18a20/transformed/jetified-places-4.2.0/AndroidManifest.xml:13:22-73
+86
+87    <uses-feature
+87-->[com.google.android.gms:play-services-maps:19.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/fd950991b9fd04f84ec25fd56407c306/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:22:5-24:33
+88        android:glEsVersion="0x00020000"
+88-->[com.google.android.gms:play-services-maps:19.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/fd950991b9fd04f84ec25fd56407c306/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:23:8-40
+89        android:required="true" />
+89-->[com.google.android.gms:play-services-maps:19.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/fd950991b9fd04f84ec25fd56407c306/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:24:8-31
+90
+91    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+91-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:23:5-77
+91-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:23:22-74
+92    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+92-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:26:5-110
+92-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:26:22-107
+93    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+93-->[com.google.android.gms:play-services-measurement-impl:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/5f0ab900eb75f29e90477d008171ca9e/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:27:5-79
+93-->[com.google.android.gms:play-services-measurement-impl:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/5f0ab900eb75f29e90477d008171ca9e/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:27:22-76
+94    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+94-->[com.google.android.gms:play-services-measurement-api:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/0c6c3f112243c1b1a3e4adb752ad8e09/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:26:5-88
+94-->[com.google.android.gms:play-services-measurement-api:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/0c6c3f112243c1b1a3e4adb752ad8e09/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:26:22-85
+95    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+95-->[com.google.android.gms:play-services-measurement-api:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/0c6c3f112243c1b1a3e4adb752ad8e09/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:27:5-82
+95-->[com.google.android.gms:play-services-measurement-api:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/0c6c3f112243c1b1a3e4adb752ad8e09/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:27:22-79
+96    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE" />
+96-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:18:5-92
+96-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:18:22-89
+97    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+97-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:19:5-83
+97-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:19:22-80
+98    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+98-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:25:5-81
+98-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:25:22-78
+99    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+99-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:26:5-77
+99-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:26:22-74
+100
+101    <permission
+101-->[androidx.core:core:1.16.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/f05d910791c0998166d8bf520dffa911/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+102        android:name="com.uidrive.user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+102-->[androidx.core:core:1.16.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/f05d910791c0998166d8bf520dffa911/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+103        android:protectionLevel="signature" />
+103-->[androidx.core:core:1.16.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/f05d910791c0998166d8bf520dffa911/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+104
+105    <uses-permission android:name="com.uidrive.user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+105-->[androidx.core:core:1.16.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/f05d910791c0998166d8bf520dffa911/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+105-->[androidx.core:core:1.16.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/f05d910791c0998166d8bf520dffa911/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+106
+107    <application
+107-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:60:5-418:19
+108        android:name="com.newtaxiprime.user.appcommon.network.AppController"
+108-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:61:9-56
+109        android:allowBackup="false"
+109-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:62:9-36
+110        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+110-->[androidx.core:core:1.16.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/f05d910791c0998166d8bf520dffa911/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+111        android:debuggable="true"
+112        android:extractNativeLibs="false"
+113        android:fullBackupContent="false"
+113-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:63:9-42
+114        android:icon="@mipmap/ic_launcher"
+114-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:64:9-43
+115        android:label="@string/app_name"
+115-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:65:9-41
+116        android:largeHeap="true"
+116-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:66:9-33
+117        android:noHistory="false"
+117-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:67:9-34
+118        android:supportsRtl="true"
+118-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:68:9-35
+119        android:testOnly="true"
+120        android:theme="@style/AppTheme.NoActionBar"
+120-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:69:9-52
+121        android:usesCleartextTraffic="true" >
+121-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:70:9-44
+122        <activity
+122-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:72:9-77:77
+123            android:name="com.newtaxiprime.user.taxiapp.sidebar.ProfileMenu"
+123-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:73:13-56
+124            android:exported="false"
+124-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:74:13-37
+125            android:screenOrientation="portrait"
+125-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:75:13-49
+126            android:theme="@style/AppTheme.NoActionBar"
+126-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:76:13-56
+127            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" />
+127-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:77:13-74
+128        <activity
+128-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:78:9-91:20
+129            android:name="com.newtaxiprime.user.taxiapp.views.signinsignup.lanuching"
+129-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:79:13-65
+130            android:screenOrientation="portrait"
+130-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:80:13-49
+131            android:theme="@style/AppTheme.NoActionBar"
+131-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:81:13-56
+132            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+132-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:82:13-73
+133
+134            <!--
+135            <intent-filter>
+136                <action android:name="android.intent.action.MAIN" />
+137
+138                <category android:name="android.intent.category.LAUNCHER" />
+139            </intent-filter>
+140            -->
+141        </activity>
+142        <activity
+142-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:92:9-96:76
+143            android:name="com.newtaxiprime.user.appcommon.views.PaymentWebViewActivity"
+143-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:93:13-67
+144            android:screenOrientation="portrait"
+144-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:94:13-49
+145            android:theme="@style/AppTheme.NoActionBar"
+145-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:95:13-56
+146            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+146-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:96:13-73
+147        <activity
+147-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:97:9-101:76
+148            android:name="com.newtaxiprime.user.appcommon.views.PaytmPaymentWebViewActivity"
+148-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:98:13-72
+149            android:screenOrientation="portrait"
+149-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:99:13-49
+150            android:theme="@style/AppTheme.NoActionBar"
+150-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:100:13-56
+151            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+151-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:101:13-73
+152        <activity
+152-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:102:9-106:76
+153            android:name="com.newtaxiprime.user.appcommon.views.FlutterwaveWebViewActivity"
+153-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:103:13-71
+154            android:screenOrientation="portrait"
+154-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:104:13-49
+155            android:theme="@style/AppTheme.NoActionBar"
+155-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:105:13-56
+156            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+156-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:106:13-73
+157        <activity
+157-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:107:9-111:76
+158            android:name="com.newtaxiprime.user.appcommon.views.PaystackWebViewActivity"
+158-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:108:13-68
+159            android:screenOrientation="portrait"
+159-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:109:13-49
+160            android:theme="@style/AppTheme.NoActionBar"
+160-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:110:13-56
+161            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+161-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:111:13-73
+162        <activity
+162-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:112:9-116:76
+163            android:name="com.newtaxiprime.user.appcommon.views.MollieWebViewActivity"
+163-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:113:13-66
+164            android:screenOrientation="portrait"
+164-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:114:13-49
+165            android:theme="@style/AppTheme.NoActionBar"
+165-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:115:13-56
+166            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+166-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:116:13-73
+167        <activity
+167-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:117:9-121:76
+168            android:name="com.newtaxiprime.user.appcommon.views.RazorpayWebViewActivity"
+168-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:118:13-68
+169            android:screenOrientation="portrait"
+169-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:119:13-49
+170            android:theme="@style/AppTheme.NoActionBar"
+170-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:120:13-56
+171            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+171-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:121:13-73
+172        <activity
+172-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:122:9-126:76
+173            android:name="com.newtaxiprime.user.appcommon.views.MpesaPaymentWebViewActivity"
+173-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:123:13-72
+174            android:screenOrientation="portrait"
+174-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:124:13-49
+175            android:theme="@style/AppTheme.NoActionBar"
+175-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:125:13-56
+176            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+176-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:126:13-73
+177
+178        <receiver
+178-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:128:9-136:20
+179            android:name="com.newtaxiprime.user.appcommon.helper.NetworkChangeReceiver"
+179-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:129:13-67
+180            android:exported="true"
+180-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:130:13-36
+181            android:label="NetworkChangeReceiver" >
+181-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:131:13-50
+182            <intent-filter>
+182-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:132:13-135:29
+183                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+183-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:133:17-79
+183-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:133:25-76
+184                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+184-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:134:17-78
+184-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:134:25-75
+185            </intent-filter>
+186        </receiver>
+187
+188        <service
+188-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:138:9-141:40
+189            android:name="com.newtaxiprime.user.taxiapp.views.voip.NewTaxiSinchService"
+189-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:139:13-67
+190            android:enabled="true"
+190-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:140:13-35
+191            android:exported="false" />
+191-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:141:13-37
+192
+193        <activity
+193-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:143:9-146:59
+194            android:name="com.newtaxiprime.user.taxiapp.sendrequest.PaymentAmountPage"
+194-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:144:13-66
+195            android:screenOrientation="portrait"
+195-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:145:13-49
+196            android:theme="@style/AppTheme.NoActionBar" />
+196-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:146:13-56
+197        <activity
+197-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:147:9-153:57
+198            android:name="com.newtaxiprime.user.taxiapp.views.voip.CallProcessingActivity"
+198-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:148:13-70
+199            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+199-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:149:13-96
+200            android:excludeFromRecents="true"
+200-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:150:13-46
+201            android:screenOrientation="portrait"
+201-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:151:13-49
+202            android:theme="@style/AppTheme.NoActionBar"
+202-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:152:13-56
+203            android:windowSoftInputMode="stateHidden" />
+203-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:153:13-54
+204        <activity
+204-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:154:9-157:59
+205            android:name="com.newtaxiprime.user.taxiapp.sendrequest.CancelYourTripActivity"
+205-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:155:13-71
+206            android:screenOrientation="portrait"
+206-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:156:13-49
+207            android:theme="@style/AppTheme.NoActionBar" />
+207-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:157:13-56
+208        <activity
+208-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:158:9-161:59
+209            android:name="com.newtaxiprime.user.taxiapp.sendrequest.CancelYourRequestActivity"
+209-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:159:13-74
+210            android:screenOrientation="portrait"
+210-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:160:13-49
+211            android:theme="@style/AppTheme.NoActionBar" />
+211-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:161:13-56
+212        <activity
+212-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:162:9-172:20
+213            android:name="com.newtaxiprime.user.taxiapp.views.splash.SplashActivity"
+213-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:163:13-64
+214            android:exported="true"
+214-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:164:13-36
+215            android:label="@string/app_name"
+215-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:165:13-45
+216            android:theme="@style/SplashTheme" >
+216-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:166:13-47
+217            <intent-filter>
+217-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:167:13-171:29
+218                <action android:name="android.intent.action.MAIN" />
+218-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:168:17-69
+218-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:168:25-66
+219
+220                <category android:name="android.intent.category.LAUNCHER" />
+220-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:170:17-77
+220-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:170:27-74
+221            </intent-filter>
+222        </activity>
+223
+224        <service
+224-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:174:9-176:40
+225            android:name="com.newtaxiprime.user.appcommon.map.FetchAddressIntentService"
+225-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:175:13-68
+226            android:exported="false" />
+226-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:176:13-37
+227        <service
+227-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:177:9-186:19
+228            android:name="com.newtaxiprime.user.appcommon.pushnotification.MyFirebaseMessagingService"
+228-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:178:13-82
+229            android:exported="true"
+229-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:179:13-36
+230            android:theme="@style/Theme.AppCompat" >
+230-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:180:13-51
+231            <intent-filter>
+231-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:181:13-185:29
+232                <action
+232-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:182:17-184:62
+233                    android:name="com.google.firebase.MESSAGING_EVENT"
+233-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:183:21-71
+234                    android:theme="@style/Theme.AppCompat" />
+234-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:184:21-59
+235            </intent-filter>
+236        </service>
+237        <service
+237-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:187:9-193:19
+238            android:name="com.newtaxiprime.user.appcommon.pushnotification.MyFirebaseInstanceIDService"
+238-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:188:13-83
+239            android:exported="false" >
+239-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:189:13-37
+240            <intent-filter>
+240-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:190:13-192:29
+241                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+241-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:191:17-80
+241-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:191:25-77
+242            </intent-filter>
+243        </service>
+244
+245        <!-- <activity -->
+246        <!-- android:name="com.facebook.FacebookActivity" -->
+247        <!-- android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" -->
+248        <!-- android:label="@string/app_name" -->
+249        <!-- android:screenOrientation="portrait" -->
+250        <!-- android:windowSoftInputMode="adjustPan" /> -->
+251
+252
+253        <!-- <meta-data -->
+254        <!-- android:name="com.facebook.sdk.ApplicationId" -->
+255        <!-- android:screenOrientation="portrait" -->
+256        <!-- android:value="@string/facebook_key" /> -->
+257
+258
+259        <!-- <provider -->
+260        <!-- android:name="com.facebook.FacebookContentProvider" -->
+261        <!-- android:authorities="@string/facebook_provider" -->
+262        <!-- android:exported="true" /> -->
+263        <provider
+264            android:name="androidx.core.content.FileProvider"
+264-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:212:13-62
+265            android:authorities="com.uidrive.user.provider"
+265-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:213:13-60
+266            android:exported="false"
+266-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:214:13-37
+267            android:grantUriPermissions="true" >
+267-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:215:13-47
+268            <meta-data
+268-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:216:13-218:58
+269                android:name="android.support.FILE_PROVIDER_PATHS"
+269-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:217:17-67
+270                android:resource="@xml/provider_paths" />
+270-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:218:17-55
+271        </provider>
+272
+273        <meta-data
+273-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:221:9-223:69
+274            android:name="com.google.android.gms.version"
+274-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:222:13-58
+275            android:value="@integer/google_play_services_version" />
+275-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:223:13-66
+276        <meta-data
+276-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:224:9-226:55
+277            android:name="com.google.android.geo.API_KEY"
+277-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:225:13-58
+278            android:value="@string/google_maps_key" />
+278-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:226:13-52
+279        <!--
+280            <meta-data
+281            android:name="com.google.android.maps.v2.API_KEY"
+282            android:value="@string/google_maps_key" />
+283        -->
+284        <activity
+284-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:232:9-236:63
+285            android:name="com.newtaxiprime.user.taxiapp.views.signinsignup.SigninSignupActivity"
+285-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:233:13-76
+286            android:screenOrientation="portrait"
+286-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:234:13-49
+287            android:theme="@style/AppTheme.NoActionBar"
+287-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:235:13-56
+288            android:windowSoftInputMode="stateAlwaysHidden" />
+288-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:236:13-60
+289        <activity
+289-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:237:9-241:63
+290            android:name="com.newtaxiprime.user.taxiapp.views.main.MainActivity"
+290-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:238:13-60
+291            android:screenOrientation="portrait"
+291-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:239:13-49
+292            android:theme="@style/AppTheme.NoActionBar"
+292-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:240:13-56
+293            android:windowSoftInputMode="stateAlwaysHidden" />
+293-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:241:13-60
+294        <activity
+294-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:242:9-246:76
+295            android:name="com.newtaxiprime.user.taxiapp.views.signinsignup.SSResetPassword"
+295-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:243:13-71
+296            android:screenOrientation="portrait"
+296-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:244:13-49
+297            android:theme="@style/AppTheme.NoActionBar"
+297-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:245:13-56
+298            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+298-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:246:13-73
+299        <activity
+299-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:247:9-251:76
+300            android:name="com.newtaxiprime.user.taxiapp.sidebar.Profile"
+300-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:248:13-52
+301            android:screenOrientation="portrait"
+301-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:249:13-49
+302            android:theme="@style/AppTheme.NoActionBar"
+302-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:250:13-56
+303            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+303-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:251:13-73
+304        <activity
+304-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:252:9-256:76
+305            android:name="com.newtaxiprime.user.taxiapp.sidebar.payment.TransferMoney"
+305-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:253:13-66
+306            android:screenOrientation="portrait"
+306-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:254:13-49
+307            android:theme="@style/AppTheme.NoActionBar"
+307-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:255:13-56
+308            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+308-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:256:13-73
+309        <activity
+309-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:257:9-261:76
+310            android:name="com.newtaxiprime.user.taxiapp.views.signinsignup.SSRegisterActivity"
+310-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:258:13-74
+311            android:screenOrientation="portrait"
+311-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:259:13-49
+312            android:theme="@style/AppTheme.NoActionBar"
+312-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:260:13-56
+313            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+313-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:261:13-73
+314        <activity
+314-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:262:9-266:77
+315            android:name="com.newtaxiprime.user.taxiapp.sidebar.Setting"
+315-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:263:13-52
+316            android:screenOrientation="portrait"
+316-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:264:13-49
+317            android:theme="@style/AppTheme.NoActionBar"
+317-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:265:13-56
+318            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" />
+318-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:266:13-74
+319        <activity
+319-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:267:9-271:76
+320            android:name="com.newtaxiprime.user.taxiapp.sidebar.FareBreakdown"
+320-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:268:13-58
+321            android:screenOrientation="portrait"
+321-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:269:13-49
+322            android:theme="@style/AppTheme.NoActionBar"
+322-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:270:13-56
+323            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+323-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:271:13-73
+324        <activity
+324-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:272:9-276:76
+325            android:name="com.newtaxiprime.user.taxiapp.views.search.PlaceSearchActivity"
+325-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:273:13-69
+326            android:screenOrientation="portrait"
+326-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:274:13-49
+327            android:theme="@style/AppTheme.NoActionBar"
+327-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:275:13-56
+328            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+328-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:276:13-73
+329        <activity
+329-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:277:9-280:59
+330            android:name="com.newtaxiprime.user.taxiapp.sidebar.EnRoute"
+330-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:278:13-52
+331            android:screenOrientation="portrait"
+331-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:279:13-49
+332            android:theme="@style/AppTheme.NoActionBar" />
+332-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:280:13-56
+333        <activity
+333-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:281:9-284:59
+334            android:name="com.newtaxiprime.user.taxiapp.sidebar.DriverContactActivity"
+334-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:282:13-66
+335            android:screenOrientation="portrait"
+335-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:283:13-49
+336            android:theme="@style/AppTheme.NoActionBar" />
+336-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:284:13-56
+337        <activity
+337-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:285:9-288:59
+338            android:name="com.newtaxiprime.user.taxiapp.sidebar.trips.YourTrips"
+338-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:286:13-60
+339            android:screenOrientation="portrait"
+339-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:287:13-49
+340            android:theme="@style/AppTheme.NoActionBar" />
+340-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:288:13-56
+341        <activity
+341-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:290:9-293:59
+342            android:name="com.newtaxiprime.user.taxiapp.sidebar.trips.TripDetails"
+342-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:291:13-62
+343            android:screenOrientation="portrait"
+343-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:292:13-49
+344            android:theme="@style/AppTheme.NoActionBar" />
+344-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:293:13-56
+345        <activity
+345-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:294:9-298:76
+346            android:name="com.newtaxiprime.user.taxiapp.views.addCardDetails.AddCardActivity"
+346-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:295:13-73
+347            android:screenOrientation="portrait"
+347-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:296:13-49
+348            android:theme="@style/AppTheme.NoActionBar"
+348-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:297:13-56
+349            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+349-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:298:13-73
+350        <activity
+350-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:299:9-302:59
+351            android:name="com.newtaxiprime.user.taxiapp.sendrequest.DriverNotAcceptActivity"
+351-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:300:13-72
+352            android:screenOrientation="portrait"
+352-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:301:13-49
+353            android:theme="@style/AppTheme.NoActionBar" />
+353-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:302:13-56
+354        <activity
+354-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:303:9-316:20
+355            android:name="com.newtaxiprime.user.taxiapp.sendrequest.DriverRatingActivity"
+355-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:304:13-69
+356            android:screenOrientation="portrait"
+356-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:305:13-49
+357            android:theme="@style/AppTheme.NoActionBar"
+357-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:306:13-56
+358            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+358-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:307:13-73
+359
+360            <!--
+361        <intent-filter>
+362            <action android:name="android.intent.action.MAIN"/>
+363
+364            <category android:name="android.intent.category.LAUNCHER"/>
+365        </intent-filter>
+366            -->
+367        </activity>
+368        <activity
+368-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:317:9-320:59
+369            android:name="com.newtaxiprime.user.taxiapp.sidebar.AddHome"
+369-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:318:13-52
+370            android:screenOrientation="portrait"
+370-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:319:13-49
+371            android:theme="@style/AppTheme.NoActionBar" />
+371-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:320:13-56
+372        <activity
+372-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:321:9-323:70
+373            android:name="com.newtaxiprime.user.appcommon.helper.CommonDialog"
+373-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:322:13-58
+374            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+374-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:323:13-67
+375        <activity
+375-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:324:9-328:76
+376            android:name="com.newtaxiprime.user.taxiapp.sidebar.payment.PromoAmountActivity"
+376-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:325:13-72
+377            android:screenOrientation="portrait"
+377-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:326:13-49
+378            android:theme="@style/AppTheme.NoActionBar"
+378-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:327:13-56
+379            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+379-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:328:13-73
+380        <!--
+381<activity
+382                android:name="com.paypal.android.MEP.PayPalActivity"
+383                android:configChanges="keyboardHidden|orientation"
+384                android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+385        -->
+386        <activity
+386-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:335:9-339:76
+387            android:name="com.newtaxiprime.user.taxiapp.sidebar.payment.AddWalletActivity"
+387-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:336:13-70
+388            android:screenOrientation="portrait"
+388-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:337:13-49
+389            android:theme="@style/AppTheme.NoActionBar"
+389-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:338:13-56
+390            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+390-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:339:13-73
+391        <activity
+391-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:340:9-344:76
+392            android:name="com.newtaxiprime.user.taxiapp.views.emergency.EmergencyContact"
+392-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:341:13-69
+393            android:screenOrientation="portrait"
+393-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:342:13-49
+394            android:theme="@style/AppTheme.NoActionBar"
+394-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:343:13-56
+395            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+395-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:344:13-73
+396        <activity
+396-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:345:9-349:76
+397            android:name="com.newtaxiprime.user.taxiapp.views.emergency.SosActivity"
+397-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:346:13-64
+398            android:screenOrientation="portrait"
+398-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:347:13-49
+399            android:theme="@style/AppTheme.NoActionBar"
+399-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:348:13-56
+400            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+400-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:349:13-73
+401        <activity
+401-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:350:9-354:76
+402            android:name="com.newtaxiprime.user.taxiapp.ScheduleRideDetailActivity"
+402-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:351:13-63
+403            android:screenOrientation="portrait"
+403-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:352:13-49
+404            android:theme="@style/AppTheme.NoActionBar"
+404-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:353:13-56
+405            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+405-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:354:13-73
+406        <activity
+406-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:355:9-359:76
+407            android:name="com.newtaxiprime.user.taxiapp.views.firebaseChat.ActivityChat"
+407-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:356:13-68
+408            android:screenOrientation="portrait"
+408-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:357:13-49
+409            android:theme="@style/AppTheme.NoActionBar"
+409-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:358:13-56
+410            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+410-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:359:13-73
+411
+412        <service
+412-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:361:9-364:40
+413            android:name="com.newtaxiprime.user.taxiapp.views.firebaseChat.FirebaseChatNotificationService"
+413-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:362:13-87
+414            android:enabled="true"
+414-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:363:13-35
+415            android:exported="false" />
+415-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:364:13-37
+416
+417        <activity android:name="com.newtaxiprime.user.taxiapp.views.facebookAccountKit.FacebookAccountKitActivity" />
+417-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:366:9-97
+417-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:366:19-94
+418        <activity
+418-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:367:9-369:52
+419            android:name="com.newtaxiprime.user.taxiapp.views.peakPricing.PeakPricing"
+419-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:368:13-66
+420            android:screenOrientation="portrait" />
+420-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:369:13-49
+421        <activity android:name="com.newtaxiprime.user.taxiapp.views.signinsignup.SSLoginActivity" />
+421-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:370:9-80
+421-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:370:19-77
+422        <activity
+422-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:371:9-374:59
+423            android:name="com.newtaxiprime.user.taxiapp.sidebar.referral.ShowReferralOptions"
+423-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:372:13-73
+424            android:screenOrientation="portrait"
+424-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:373:13-49
+425            android:theme="@style/AppTheme.NoActionBar" />
+425-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:374:13-56
+426        <activity
+426-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:375:9-379:76
+427            android:name="com.newtaxiprime.user.taxiapp.sidebar.payment.PaymentPage"
+427-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:376:13-64
+428            android:screenOrientation="portrait"
+428-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:377:13-49
+429            android:theme="@style/AppTheme.NoActionBar"
+429-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:378:13-56
+430            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+430-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:379:13-73
+431        <activity
+431-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:380:9-384:59
+432            android:name="com.newtaxiprime.user.taxiapp.sendrequest.SendingRequestActivity"
+432-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:381:13-71
+433            android:hardwareAccelerated="true"
+433-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:382:13-47
+434            android:screenOrientation="portrait"
+434-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:383:13-49
+435            android:theme="@style/AppTheme.NoActionBar" />
+435-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:384:13-56
+436        <activity
+436-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:385:9-388:59
+437            android:name="com.newtaxiprime.user.appcommon.views.SupportActivityCommon"
+437-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:386:13-66
+438            android:screenOrientation="portrait"
+438-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:387:13-49
+439            android:theme="@style/AppTheme.NoActionBar" />
+439-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:388:13-56
+440        <activity
+440-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:389:9-392:59
+441            android:name="com.newtaxiprime.user.appcommon.views.BannerActivityCommon"
+441-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:390:13-65
+442            android:screenOrientation="portrait"
+442-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:391:13-49
+443            android:theme="@style/AppTheme.NoActionBar" />
+443-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:392:13-56
+444        <activity
+444-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:393:9-396:59
+445            android:name="com.newtaxiprime.user.taxiapp.views.termsPolicy.Privacy"
+445-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:394:13-62
+446            android:screenOrientation="portrait"
+446-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:395:13-49
+447            android:theme="@style/AppTheme.NoActionBar" />
+447-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:396:13-56
+448        <activity
+448-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:397:9-400:59
+449            android:name="com.newtaxiprime.user.taxiapp.views.termsPolicy.Terms"
+449-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:398:13-60
+450            android:screenOrientation="portrait"
+450-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:399:13-49
+451            android:theme="@style/AppTheme.NoActionBar" />
+451-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:400:13-56
+452        <activity
+452-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:401:9-413:20
+453            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+453-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:402:13-84
+454            android:exported="true"
+454-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:403:13-36
+455            android:launchMode="singleTask" >
+455-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:404:13-44
+456            <intent-filter>
+456-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:405:13-412:29
+457                <action android:name="android.intent.action.VIEW" />
+457-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:17-69
+457-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:25-66
+458
+459                <category android:name="android.intent.category.DEFAULT" />
+459-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:17-76
+459-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:27-73
+460                <category android:name="android.intent.category.BROWSABLE" />
+460-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:17-78
+460-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:27-75
+461
+462                <data android:scheme="com.uidrive.user.braintree" />
+462-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+463            </intent-filter>
+464        </activity>
+465        <activity
+465-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:414:9-417:52
+466            android:name="com.newtaxiprime.user.taxiapp.views.permissionoverview.PermissionOverViewActivity"
+466-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:415:13-88
+467            android:exported="true"
+467-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:416:13-36
+468            android:screenOrientation="portrait" />
+468-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:417:13-49
+469        <activity
+469-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:8:9-12:58
+470            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+470-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:9:13-80
+471            android:exported="false"
+471-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:10:13-37
+472            android:theme="@style/StripePaymentSheetDefaultTheme"
+472-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:11:13-66
+473            android:windowSoftInputMode="adjustResize" />
+473-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:12:13-55
+474        <activity
+474-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:13:9-17:58
+475            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+475-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:14:13-82
+476            android:exported="false"
+476-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:15:13-37
+477            android:theme="@style/StripePaymentSheetDefaultTheme"
+477-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:16:13-66
+478            android:windowSoftInputMode="adjustResize" />
+478-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:17:13-55
+479        <activity
+479-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:18:9-21:69
+480            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+480-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:19:13-97
+481            android:exported="false"
+481-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:20:13-37
+482            android:theme="@style/StripePaymentSheetDefaultTheme" />
+482-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:21:13-66
+483        <activity
+483-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:22:9-25:69
+484            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+484-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:23:13-105
+485            android:exported="false"
+485-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:24:13-37
+486            android:theme="@style/StripePaymentSheetDefaultTheme" />
+486-->[com.stripe:paymentsheet:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/7426db54e2b1a0d59ae74fdc6aad9817/transformed/jetified-paymentsheet-20.22.0/AndroidManifest.xml:25:13-66
+487        <activity
+487-->[com.stripe:link:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d671d84c52d14ae15c994b93805b4798/transformed/jetified-link-20.22.0/AndroidManifest.xml:8:9-13:58
+488            android:name="com.stripe.android.link.LinkActivity"
+488-->[com.stripe:link:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d671d84c52d14ae15c994b93805b4798/transformed/jetified-link-20.22.0/AndroidManifest.xml:9:13-64
+489            android:exported="false"
+489-->[com.stripe:link:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d671d84c52d14ae15c994b93805b4798/transformed/jetified-link-20.22.0/AndroidManifest.xml:10:13-37
+490            android:label="@string/link"
+490-->[com.stripe:link:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d671d84c52d14ae15c994b93805b4798/transformed/jetified-link-20.22.0/AndroidManifest.xml:11:13-41
+491            android:theme="@style/LinkBaseTheme"
+491-->[com.stripe:link:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d671d84c52d14ae15c994b93805b4798/transformed/jetified-link-20.22.0/AndroidManifest.xml:12:13-49
+492            android:windowSoftInputMode="adjustResize" />
+492-->[com.stripe:link:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d671d84c52d14ae15c994b93805b4798/transformed/jetified-link-20.22.0/AndroidManifest.xml:13:13-55
+493        <activity
+493-->[com.stripe:payments-ui-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/83bf321e5c8480b2f32254591d7d1742/transformed/jetified-payments-ui-core-20.22.0/AndroidManifest.xml:8:9-11:69
+494            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+494-->[com.stripe:payments-ui-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/83bf321e5c8480b2f32254591d7d1742/transformed/jetified-payments-ui-core-20.22.0/AndroidManifest.xml:9:13-80
+495            android:exported="false"
+495-->[com.stripe:payments-ui-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/83bf321e5c8480b2f32254591d7d1742/transformed/jetified-payments-ui-core-20.22.0/AndroidManifest.xml:10:13-37
+496            android:theme="@style/StripePaymentSheetDefaultTheme" />
+496-->[com.stripe:payments-ui-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/83bf321e5c8480b2f32254591d7d1742/transformed/jetified-payments-ui-core-20.22.0/AndroidManifest.xml:11:13-66
+497        <activity
+497-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:15:9-18:57
+498            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+498-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:16:13-76
+499            android:exported="false"
+499-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:17:13-37
+500            android:theme="@style/StripeDefaultTheme" />
+500-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:18:13-54
+501        <activity
+501-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:19:9-22:57
+502            android:name="com.stripe.android.view.PaymentMethodsActivity"
+502-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:20:13-74
+503            android:exported="false"
+503-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:21:13-37
+504            android:theme="@style/StripeDefaultTheme" />
+504-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:22:13-54
+505        <activity
+505-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:23:9-26:57
+506            android:name="com.stripe.android.view.PaymentFlowActivity"
+506-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:24:13-71
+507            android:exported="false"
+507-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:25:13-37
+508            android:theme="@style/StripeDefaultTheme" />
+508-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:26:13-54
+509        <activity
+509-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:27:9-31:58
+510            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+510-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:28:13-78
+511            android:exported="false"
+511-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:29:13-37
+512            android:theme="@style/StripeDefaultTheme"
+512-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:30:13-54
+513            android:windowSoftInputMode="adjustResize" />
+513-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:31:13-55
+514        <activity
+514-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:32:9-35:61
+515            android:name="com.stripe.android.view.PaymentRelayActivity"
+515-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:33:13-72
+516            android:exported="false"
+516-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:34:13-37
+517            android:theme="@style/StripeTransparentTheme" />
+517-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:35:13-58
+518        <!--
+519        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+520        launched the browser Activity will also handle the return URL deep link.
+521        -->
+522        <activity
+522-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:41:9-45:61
+523            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+523-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:42:13-85
+524            android:exported="false"
+524-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:43:13-37
+525            android:launchMode="singleTask"
+525-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:44:13-44
+526            android:theme="@style/StripeTransparentTheme" />
+526-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:45:13-58
+527        <activity
+527-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:46:9-63:20
+528            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+528-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:47:13-88
+529            android:exported="true"
+529-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:48:13-36
+530            android:launchMode="singleTask"
+530-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:49:13-44
+531            android:theme="@style/StripeTransparentTheme" >
+531-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:50:13-58
+532            <intent-filter>
+532-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:51:13-62:29
+533                <action android:name="android.intent.action.VIEW" />
+533-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:17-69
+533-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:25-66
+534
+535                <category android:name="android.intent.category.DEFAULT" />
+535-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:17-76
+535-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:27-73
+536                <category android:name="android.intent.category.BROWSABLE" />
+536-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:17-78
+536-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:27-75
+537
+538                <!-- Must match `DefaultReturnUrl#value`. -->
+539                <data
+540                    android:host="payment_return_url"
+541                    android:path="/com.uidrive.user"
+542                    android:scheme="stripesdk" />
+542-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+543            </intent-filter>
+544        </activity>
+545        <activity
+545-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:64:9-67:57
+546            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+546-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:65:13-114
+547            android:exported="false"
+547-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:66:13-37
+548            android:theme="@style/StripeDefaultTheme" />
+548-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:67:13-54
+549        <activity
+549-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:68:9-71:66
+550            android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity"
+550-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:69:13-88
+551            android:exported="false"
+551-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:70:13-37
+552            android:theme="@style/StripeGooglePayDefaultTheme" />
+552-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:71:13-63
+553        <activity
+553-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:72:9-75:66
+554            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+554-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:73:13-90
+555            android:exported="false"
+555-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:74:13-37
+556            android:theme="@style/StripeGooglePayDefaultTheme" />
+556-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:75:13-63
+557        <activity
+557-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:76:9-79:66
+558            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+558-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:77:13-103
+559            android:exported="false"
+559-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:78:13-37
+560            android:theme="@style/StripeGooglePayDefaultTheme" />
+560-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:79:13-63
+561        <activity
+561-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:80:9-83:62
+562            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+562-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:81:13-107
+563            android:exported="false"
+563-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:82:13-37
+564            android:theme="@style/PayLauncherDefaultTheme" />
+564-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:83:13-59
+565        <activity
+565-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:84:9-87:61
+566            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+566-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:85:13-97
+567            android:exported="false"
+567-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:86:13-37
+568            android:theme="@style/StripeTransparentTheme" />
+568-->[com.stripe:payments-core:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/42a4c7ff50bbbfccd4ea62c266516836/transformed/jetified-payments-core-20.22.0/AndroidManifest.xml:87:13-58
+569        <activity
+569-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/mikailramadan/.gradle/caches/8.9/transforms/828c4b2c438aa6a32c875d5d597e4355/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:8:9-11:54
+570            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+570-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/mikailramadan/.gradle/caches/8.9/transforms/828c4b2c438aa6a32c875d5d597e4355/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:9:13-81
+571            android:exported="false"
+571-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/mikailramadan/.gradle/caches/8.9/transforms/828c4b2c438aa6a32c875d5d597e4355/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:10:13-37
+572            android:theme="@style/Stripe3DS2Theme" />
+572-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/mikailramadan/.gradle/caches/8.9/transforms/828c4b2c438aa6a32c875d5d597e4355/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:11:13-51
+573        <activity
+573-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:21:9-64:20
+574            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+574-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:22:13-109
+575            android:exported="true" >
+575-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:23:13-36
+576            <intent-filter>
+576-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:24:13-63:29
+577                <action android:name="android.intent.action.VIEW" />
+577-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:17-69
+577-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:25-66
+578
+579                <category android:name="android.intent.category.DEFAULT" />
+579-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:17-76
+579-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:27-73
+580                <category android:name="android.intent.category.BROWSABLE" />
+580-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:17-78
+580-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:27-75
+581
+582                <!-- Returning from app2app: return_url is triggered to reopen web AuthFlow and poll accounts. -->
+583                <data
+584                    android:host="link-accounts"
+585                    android:pathPrefix="/com.uidrive.user/authentication_return"
+586                    android:scheme="stripe-auth" />
+586-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+587
+588                <!-- Returning from app2app: return_url is triggered to reopen native AuthFlow and poll accounts. -->
+589                <data
+590                    android:host="link-native-accounts"
+591                    android:pathPrefix="/com.uidrive.user/authentication_return"
+592                    android:scheme="stripe-auth" />
+592-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+593
+594                <!-- End of web AuthFlow success and cancel URIs that begin with "stripe-auth://link-accounts/{app-id}/...” -->
+595                <data
+596                    android:host="link-accounts"
+597                    android:path="/com.uidrive.user/success"
+598                    android:scheme="stripe-auth" />
+598-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+599                <data
+600                    android:host="link-accounts"
+601                    android:path="/com.uidrive.user/cancel"
+602                    android:scheme="stripe-auth" />
+602-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+603
+604                <!-- Opening app2app: Web flow triggers stripe-auth://native-redirect/{app-id}/http://web-that-redirects-to-native -->
+605                <data
+606                    android:host="native-redirect"
+607                    android:pathPrefix="/com.uidrive.user"
+608                    android:scheme="stripe-auth" />
+608-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+609
+610                <!-- Accepts success/cancel/fail URIs that begin with "stripe://auth-redirect” -->
+611                <data
+612                    android:host="auth-redirect"
+613                    android:pathPrefix="/com.uidrive.user"
+614                    android:scheme="stripe" />
+614-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+615            </intent-filter>
+616        </activity>
+617        <activity
+617-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:65:9-68:57
+618            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+618-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:66:13-101
+619            android:exported="false"
+619-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:67:13-37
+620            android:theme="@style/StripeDefaultTheme" />
+620-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:68:13-54
+621        <activity
+621-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:69:9-73:58
+622            android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+622-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:70:13-110
+623            android:exported="false"
+623-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:71:13-37
+624            android:theme="@style/StripeDefaultTheme"
+624-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:72:13-54
+625            android:windowSoftInputMode="adjustResize" />
+625-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:73:13-55
+626
+627        <provider
+627-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:75:9-79:43
+628            android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"
+628-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:76:13-114
+629            android:authorities="com.uidrive.user.financialconnections-init"
+629-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:77:13-77
+630            android:exported="false"
+630-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:78:13-37
+631            android:multiprocess="true" />
+631-->[com.stripe:financial-connections:20.22.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/b6aad7dc8abd8c3b3fe3f205f9a576ba/transformed/jetified-financial-connections-20.22.0/AndroidManifest.xml:79:13-40
+632
+633        <activity
+633-->[com.google.android.libraries.places:places:4.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/50705441130a30779c9b1f8339e18a20/transformed/jetified-places-4.2.0/AndroidManifest.xml:17:9-23:20
+634            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+634-->[com.google.android.libraries.places:places:4.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/50705441130a30779c9b1f8339e18a20/transformed/jetified-places-4.2.0/AndroidManifest.xml:18:13-91
+635            android:exported="false"
+635-->[com.google.android.libraries.places:places:4.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/50705441130a30779c9b1f8339e18a20/transformed/jetified-places-4.2.0/AndroidManifest.xml:19:13-37
+636            android:label="@string/places_autocomplete_label"
+636-->[com.google.android.libraries.places:places:4.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/50705441130a30779c9b1f8339e18a20/transformed/jetified-places-4.2.0/AndroidManifest.xml:20:13-62
+637            android:theme="@style/PlacesAutocompleteOverlay"
+637-->[com.google.android.libraries.places:places:4.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/50705441130a30779c9b1f8339e18a20/transformed/jetified-places-4.2.0/AndroidManifest.xml:21:13-61
+638            android:windowSoftInputMode="adjustResize" >
+638-->[com.google.android.libraries.places:places:4.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/50705441130a30779c9b1f8339e18a20/transformed/jetified-places-4.2.0/AndroidManifest.xml:22:13-55
+639        </activity>
+640        <activity
+640-->[com.braintreepayments.api:drop-in:5.0.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/fba85657e377035e352d961527e4e3a3/transformed/jetified-drop-in-5.0.1/AndroidManifest.xml:18:9-20:64
+641            android:name="com.braintreepayments.api.dropin.DropInActivity"
+641-->[com.braintreepayments.api:drop-in:5.0.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/fba85657e377035e352d961527e4e3a3/transformed/jetified-drop-in-5.0.1/AndroidManifest.xml:19:13-75
+642            android:theme="@style/bt_drop_in_activity_theme" />
+642-->[com.braintreepayments.api:drop-in:5.0.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/fba85657e377035e352d961527e4e3a3/transformed/jetified-drop-in-5.0.1/AndroidManifest.xml:20:13-61
+643        <activity
+643-->[com.braintreepayments.api:drop-in:5.0.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/fba85657e377035e352d961527e4e3a3/transformed/jetified-drop-in-5.0.1/AndroidManifest.xml:21:9-23:65
+644            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+644-->[com.braintreepayments.api:drop-in:5.0.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/fba85657e377035e352d961527e4e3a3/transformed/jetified-drop-in-5.0.1/AndroidManifest.xml:22:13-76
+645            android:theme="@style/bt_add_card_activity_theme" />
+645-->[com.braintreepayments.api:drop-in:5.0.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/fba85657e377035e352d961527e4e3a3/transformed/jetified-drop-in-5.0.1/AndroidManifest.xml:23:13-62
+646        <activity
+646-->[com.braintreepayments.api:drop-in:5.0.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/fba85657e377035e352d961527e4e3a3/transformed/jetified-drop-in-5.0.1/AndroidManifest.xml:24:9-26:70
+647            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+647-->[com.braintreepayments.api:drop-in:5.0.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/fba85657e377035e352d961527e4e3a3/transformed/jetified-drop-in-5.0.1/AndroidManifest.xml:25:13-81
+648            android:theme="@style/bt_vault_manager_activity_theme" />
+648-->[com.braintreepayments.api:drop-in:5.0.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/fba85657e377035e352d961527e4e3a3/transformed/jetified-drop-in-5.0.1/AndroidManifest.xml:26:13-67
+649
+650        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+650-->[com.braintreepayments.api:braintree:3.20.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/1bab250a02217b4de01d959acf3c7dcc/transformed/jetified-braintree-3.20.1/AndroidManifest.xml:22:9-93
+650-->[com.braintreepayments.api:braintree:3.20.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/1bab250a02217b4de01d959acf3c7dcc/transformed/jetified-braintree-3.20.1/AndroidManifest.xml:22:18-90
+651
+652        <activity android:name="com.braintreepayments.api.ThreeDSecureActivity" />
+652-->[com.braintreepayments.api:braintree:3.20.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/1bab250a02217b4de01d959acf3c7dcc/transformed/jetified-braintree-3.20.1/AndroidManifest.xml:24:9-83
+652-->[com.braintreepayments.api:braintree:3.20.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/1bab250a02217b4de01d959acf3c7dcc/transformed/jetified-braintree-3.20.1/AndroidManifest.xml:24:19-80
+653        <activity
+653-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:20:9-23:66
+654            android:name="com.facebook.FacebookActivity"
+654-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:21:13-57
+655            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+655-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:22:13-96
+656            android:theme="@style/com_facebook_activity_theme" />
+656-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:23:13-63
+657        <activity android:name="com.facebook.CustomTabMainActivity" />
+657-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:24:9-71
+657-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:24:19-68
+658        <activity
+658-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:25:9-39:20
+659            android:name="com.facebook.CustomTabActivity"
+659-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:26:13-58
+660            android:exported="true" >
+660-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:27:13-36
+661            <intent-filter>
+661-->[com.facebook.android:facebook-common:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/c20eb816d9f3e22f3f1a66a9a49db6b9/transformed/jetified-facebook-common-18.0.3/AndroidManifest.xml:29:13-38:29
+662                <action android:name="android.intent.action.VIEW" />
+662-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:17-69
+662-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:25-66
+663
+664                <category android:name="android.intent.category.DEFAULT" />
+664-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:17-76
+664-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:27-73
+665                <category android:name="android.intent.category.BROWSABLE" />
+665-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:17-78
+665-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:27-75
+666
+667                <data
+668                    android:host="cct.com.uidrive.user"
+669                    android:scheme="fbconnect" />
+669-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+670            </intent-filter>
+671        </activity> <!-- Needs to be explicitly declared on P+ -->
+672        <uses-library
+672-->[com.google.android.gms:play-services-maps:19.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/fd950991b9fd04f84ec25fd56407c306/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:33:7-86
+673            android:name="org.apache.http.legacy"
+673-->[com.google.android.gms:play-services-maps:19.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/fd950991b9fd04f84ec25fd56407c306/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:33:21-58
+674            android:required="false" />
+674-->[com.google.android.gms:play-services-maps:19.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/fd950991b9fd04f84ec25fd56407c306/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:33:59-83
+675
+676        <service
+676-->[com.google.firebase:firebase-auth-ktx:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d45f5035a652a6359b0679ef42794da8/transformed/jetified-firebase-auth-ktx-23.2.0/AndroidManifest.xml:8:9-14:19
+677            android:name="com.google.firebase.components.ComponentDiscoveryService"
+677-->[com.google.firebase:firebase-auth-ktx:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d45f5035a652a6359b0679ef42794da8/transformed/jetified-firebase-auth-ktx-23.2.0/AndroidManifest.xml:9:13-84
+678            android:directBootAware="true"
+678-->[com.google.firebase:firebase-common:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/c04dec59aa38b264807bfee5f10b35c7/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+679            android:exported="false" >
+679-->[com.google.firebase:firebase-auth-ktx:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d45f5035a652a6359b0679ef42794da8/transformed/jetified-firebase-auth-ktx-23.2.0/AndroidManifest.xml:10:13-37
+680            <meta-data
+680-->[com.google.firebase:firebase-auth-ktx:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d45f5035a652a6359b0679ef42794da8/transformed/jetified-firebase-auth-ktx-23.2.0/AndroidManifest.xml:11:13-13:85
+681                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+681-->[com.google.firebase:firebase-auth-ktx:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d45f5035a652a6359b0679ef42794da8/transformed/jetified-firebase-auth-ktx-23.2.0/AndroidManifest.xml:12:17-119
+682                android:value="com.google.firebase.components.ComponentRegistrar" />
+682-->[com.google.firebase:firebase-auth-ktx:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/d45f5035a652a6359b0679ef42794da8/transformed/jetified-firebase-auth-ktx-23.2.0/AndroidManifest.xml:13:17-82
+683            <meta-data
+683-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:69:13-71:85
+684                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+684-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:70:17-109
+685                android:value="com.google.firebase.components.ComponentRegistrar" />
+685-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:71:17-82
+686            <meta-data
+686-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:57:13-59:85
+687                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+687-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:58:17-122
+688                android:value="com.google.firebase.components.ComponentRegistrar" />
+688-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:59:17-82
+689            <meta-data
+689-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:60:13-62:85
+690                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+690-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:61:17-119
+691                android:value="com.google.firebase.components.ComponentRegistrar" />
+691-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:62:17-82
+692            <meta-data
+692-->[com.google.firebase:firebase-database:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/aa832512f91d46542d138e89f5f75228/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:29:13-31:85
+693                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+693-->[com.google.firebase:firebase-database:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/aa832512f91d46542d138e89f5f75228/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:30:17-120
+694                android:value="com.google.firebase.components.ComponentRegistrar" />
+694-->[com.google.firebase:firebase-database:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/aa832512f91d46542d138e89f5f75228/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:31:17-82
+695            <meta-data
+695-->[com.google.firebase:firebase-database:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/aa832512f91d46542d138e89f5f75228/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:32:13-34:85
+696                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+696-->[com.google.firebase:firebase-database:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/aa832512f91d46542d138e89f5f75228/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:33:17-109
+697                android:value="com.google.firebase.components.ComponentRegistrar" />
+697-->[com.google.firebase:firebase-database:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/aa832512f91d46542d138e89f5f75228/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:34:17-82
+698            <meta-data
+698-->[com.google.firebase:firebase-crashlytics:19.4.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/09802182b2f6529e3a61178f48e6a6ea/transformed/jetified-firebase-crashlytics-19.4.3/AndroidManifest.xml:15:13-17:85
+699                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+699-->[com.google.firebase:firebase-crashlytics:19.4.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/09802182b2f6529e3a61178f48e6a6ea/transformed/jetified-firebase-crashlytics-19.4.3/AndroidManifest.xml:16:17-126
+700                android:value="com.google.firebase.components.ComponentRegistrar" />
+700-->[com.google.firebase:firebase-crashlytics:19.4.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/09802182b2f6529e3a61178f48e6a6ea/transformed/jetified-firebase-crashlytics-19.4.3/AndroidManifest.xml:17:17-82
+701            <meta-data
+701-->[com.google.firebase:firebase-crashlytics:19.4.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/09802182b2f6529e3a61178f48e6a6ea/transformed/jetified-firebase-crashlytics-19.4.3/AndroidManifest.xml:18:13-20:85
+702                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+702-->[com.google.firebase:firebase-crashlytics:19.4.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/09802182b2f6529e3a61178f48e6a6ea/transformed/jetified-firebase-crashlytics-19.4.3/AndroidManifest.xml:19:17-115
+703                android:value="com.google.firebase.components.ComponentRegistrar" />
+703-->[com.google.firebase:firebase-crashlytics:19.4.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/09802182b2f6529e3a61178f48e6a6ea/transformed/jetified-firebase-crashlytics-19.4.3/AndroidManifest.xml:20:17-82
+704            <meta-data
+704-->[com.google.firebase:firebase-sessions:2.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/8fb48f342d0efdd7ca350ccf33814bb5/transformed/jetified-firebase-sessions-2.1.1/AndroidManifest.xml:29:13-31:85
+705                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+705-->[com.google.firebase:firebase-sessions:2.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/8fb48f342d0efdd7ca350ccf33814bb5/transformed/jetified-firebase-sessions-2.1.1/AndroidManifest.xml:30:17-117
+706                android:value="com.google.firebase.components.ComponentRegistrar" />
+706-->[com.google.firebase:firebase-sessions:2.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/8fb48f342d0efdd7ca350ccf33814bb5/transformed/jetified-firebase-sessions-2.1.1/AndroidManifest.xml:31:17-82
+707            <meta-data
+707-->[com.google.android.gms:play-services-measurement-api:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/0c6c3f112243c1b1a3e4adb752ad8e09/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:33:13-35:85
+708                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+708-->[com.google.android.gms:play-services-measurement-api:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/0c6c3f112243c1b1a3e4adb752ad8e09/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:34:17-139
+709                android:value="com.google.firebase.components.ComponentRegistrar" />
+709-->[com.google.android.gms:play-services-measurement-api:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/0c6c3f112243c1b1a3e4adb752ad8e09/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:35:17-82
+710            <meta-data
+710-->[com.google.firebase:firebase-installations:18.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/55f27f2227dc308338c414a5881cb3fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+711                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+711-->[com.google.firebase:firebase-installations:18.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/55f27f2227dc308338c414a5881cb3fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+712                android:value="com.google.firebase.components.ComponentRegistrar" />
+712-->[com.google.firebase:firebase-installations:18.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/55f27f2227dc308338c414a5881cb3fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+713            <meta-data
+713-->[com.google.firebase:firebase-installations:18.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/55f27f2227dc308338c414a5881cb3fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+714                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+714-->[com.google.firebase:firebase-installations:18.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/55f27f2227dc308338c414a5881cb3fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+715                android:value="com.google.firebase.components.ComponentRegistrar" />
+715-->[com.google.firebase:firebase-installations:18.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/55f27f2227dc308338c414a5881cb3fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+716            <meta-data
+716-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/2198df5caceb410acd4b88ee763d5e3e/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+717                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+717-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/2198df5caceb410acd4b88ee763d5e3e/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+718                android:value="com.google.firebase.components.ComponentRegistrar" />
+718-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/2198df5caceb410acd4b88ee763d5e3e/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+719            <meta-data
+719-->[com.google.firebase:firebase-common:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/c04dec59aa38b264807bfee5f10b35c7/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+720                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+720-->[com.google.firebase:firebase-common:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/c04dec59aa38b264807bfee5f10b35c7/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+721                android:value="com.google.firebase.components.ComponentRegistrar" />
+721-->[com.google.firebase:firebase-common:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/c04dec59aa38b264807bfee5f10b35c7/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+722            <meta-data
+722-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/301bf32764b831f8b182078a5ab50cae/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:25:13-27:85
+723                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+723-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/301bf32764b831f8b182078a5ab50cae/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:26:17-115
+724                android:value="com.google.firebase.components.ComponentRegistrar" />
+724-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/301bf32764b831f8b182078a5ab50cae/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:27:17-82
+725        </service>
+726
+727        <activity
+727-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:29:9-46:20
+728            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+728-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:30:13-80
+729            android:excludeFromRecents="true"
+729-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:31:13-46
+730            android:exported="true"
+730-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:32:13-36
+731            android:launchMode="singleTask"
+731-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:33:13-44
+732            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+732-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:34:13-72
+733            <intent-filter>
+733-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:35:13-45:29
+734                <action android:name="android.intent.action.VIEW" />
+734-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:17-69
+734-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:25-66
+735
+736                <category android:name="android.intent.category.DEFAULT" />
+736-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:17-76
+736-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:27-73
+737                <category android:name="android.intent.category.BROWSABLE" />
+737-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:17-78
+737-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:27-75
+738
+739                <data
+740                    android:host="firebase.auth"
+741                    android:path="/"
+742                    android:scheme="genericidp" />
+742-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+743            </intent-filter>
+744        </activity>
+745        <activity
+745-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:47:9-64:20
+746            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+746-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:48:13-79
+747            android:excludeFromRecents="true"
+747-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:49:13-46
+748            android:exported="true"
+748-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:50:13-36
+749            android:launchMode="singleTask"
+749-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:51:13-44
+750            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+750-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:52:13-72
+751            <intent-filter>
+751-->[com.google.firebase:firebase-auth:23.2.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/616ff5bcbf5ad6035bc1e1bf90bdb818/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:53:13-63:29
+752                <action android:name="android.intent.action.VIEW" />
+752-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:17-69
+752-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:406:25-66
+753
+754                <category android:name="android.intent.category.DEFAULT" />
+754-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:17-76
+754-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:408:27-73
+755                <category android:name="android.intent.category.BROWSABLE" />
+755-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:17-78
+755-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:409:27-75
+756
+757                <data
+758                    android:host="firebase.auth"
+759                    android:path="/"
+760                    android:scheme="recaptcha" />
+760-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:411:23-66
+761            </intent-filter>
+762        </activity>
+763
+764        <service
+764-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+765            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+765-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+766            android:enabled="true"
+766-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+767            android:exported="false" >
+767-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+768            <meta-data
+768-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+769                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+769-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+770                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+770-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+771        </service>
+772
+773        <activity
+773-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+774            android:name="androidx.credentials.playservices.HiddenActivity"
+774-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+775            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+775-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+776            android:enabled="true"
+776-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+777            android:exported="false"
+777-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+778            android:fitsSystemWindows="true"
+778-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+779            android:theme="@style/Theme.Hidden" >
+779-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/mikailramadan/.gradle/caches/8.9/transforms/7e868778c61f7a094ec0bfbab234ee23/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+780        </activity>
+781        <activity
+781-->[com.google.android.gms:play-services-auth:21.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/31d0e8343d31bea9ea2c12fd954df069/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:23:9-27:75
+782            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+782-->[com.google.android.gms:play-services-auth:21.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/31d0e8343d31bea9ea2c12fd954df069/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:24:13-93
+783            android:excludeFromRecents="true"
+783-->[com.google.android.gms:play-services-auth:21.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/31d0e8343d31bea9ea2c12fd954df069/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:25:13-46
+784            android:exported="false"
+784-->[com.google.android.gms:play-services-auth:21.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/31d0e8343d31bea9ea2c12fd954df069/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:26:13-37
+785            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+785-->[com.google.android.gms:play-services-auth:21.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/31d0e8343d31bea9ea2c12fd954df069/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:27:13-72
+786        <!--
+787            Service handling Google Sign-In user revocation. For apps that do not integrate with
+788            Google Sign-In, this service will never be started.
+789        -->
+790        <service
+790-->[com.google.android.gms:play-services-auth:21.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/31d0e8343d31bea9ea2c12fd954df069/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:33:9-37:51
+791            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+791-->[com.google.android.gms:play-services-auth:21.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/31d0e8343d31bea9ea2c12fd954df069/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:34:13-89
+792            android:exported="true"
+792-->[com.google.android.gms:play-services-auth:21.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/31d0e8343d31bea9ea2c12fd954df069/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:35:13-36
+793            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+793-->[com.google.android.gms:play-services-auth:21.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/31d0e8343d31bea9ea2c12fd954df069/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:36:13-107
+794            android:visibleToInstantApps="true" />
+794-->[com.google.android.gms:play-services-auth:21.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/31d0e8343d31bea9ea2c12fd954df069/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:37:13-48
+795
+796        <receiver
+796-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:29:9-40:20
+797            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+797-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:30:13-78
+798            android:exported="true"
+798-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:31:13-36
+799            android:permission="com.google.android.c2dm.permission.SEND" >
+799-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:32:13-73
+800            <intent-filter>
+800-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:33:13-35:29
+801                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+801-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:34:17-81
+801-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:34:25-78
+802            </intent-filter>
+803
+804            <meta-data
+804-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:37:13-39:40
+805                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+805-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:38:17-92
+806                android:value="true" />
+806-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:39:17-37
+807        </receiver>
+808        <!--
+809             FirebaseMessagingService performs security checks at runtime,
+810             but set to not exported to explicitly avoid allowing another app to call it.
+811        -->
+812        <service
+812-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:46:9-53:19
+813            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+813-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:47:13-82
+814            android:directBootAware="true"
+814-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:48:13-43
+815            android:exported="false" >
+815-->[com.google.firebase:firebase-messaging:24.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/d829b04f067e09c2e29949c6270190ea/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:49:13-37
+816            <intent-filter android:priority="-500" >
+816-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:181:13-185:29
+817                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+817-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:182:17-184:62
+817-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:183:21-71
+818            </intent-filter>
+819        </service>
+820
+821        <receiver
+821-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:29:9-33:20
+822            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+822-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:30:13-85
+823            android:enabled="true"
+823-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:31:13-35
+824            android:exported="false" >
+824-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:32:13-37
+825        </receiver>
+826
+827        <service
+827-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:35:9-38:40
+828            android:name="com.google.android.gms.measurement.AppMeasurementService"
+828-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:36:13-84
+829            android:enabled="true"
+829-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:37:13-35
+830            android:exported="false" />
+830-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:38:13-37
+831        <service
+831-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:39:9-43:72
+832            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+832-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:40:13-87
+833            android:enabled="true"
+833-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:41:13-35
+834            android:exported="false"
+834-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:42:13-37
+835            android:permission="android.permission.BIND_JOB_SERVICE" />
+835-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/3f4f8b894a97ab019fa407b7310b85e7/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:43:13-69
+836
+837        <activity
+837-->[com.google.android.gms:play-services-base:18.5.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/dc3ed1f0f37ba4e0ff7075b55f76b856/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+838            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+838-->[com.google.android.gms:play-services-base:18.5.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/dc3ed1f0f37ba4e0ff7075b55f76b856/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+839            android:exported="false"
+839-->[com.google.android.gms:play-services-base:18.5.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/dc3ed1f0f37ba4e0ff7075b55f76b856/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+840            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+840-->[com.google.android.gms:play-services-base:18.5.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/dc3ed1f0f37ba4e0ff7075b55f76b856/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+841
+842        <service
+842-->[com.google.firebase:firebase-sessions:2.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/8fb48f342d0efdd7ca350ccf33814bb5/transformed/jetified-firebase-sessions-2.1.1/AndroidManifest.xml:22:9-25:40
+843            android:name="com.google.firebase.sessions.SessionLifecycleService"
+843-->[com.google.firebase:firebase-sessions:2.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/8fb48f342d0efdd7ca350ccf33814bb5/transformed/jetified-firebase-sessions-2.1.1/AndroidManifest.xml:23:13-80
+844            android:enabled="true"
+844-->[com.google.firebase:firebase-sessions:2.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/8fb48f342d0efdd7ca350ccf33814bb5/transformed/jetified-firebase-sessions-2.1.1/AndroidManifest.xml:24:13-35
+845            android:exported="false" />
+845-->[com.google.firebase:firebase-sessions:2.1.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/8fb48f342d0efdd7ca350ccf33814bb5/transformed/jetified-firebase-sessions-2.1.1/AndroidManifest.xml:25:13-37
+846
+847        <provider
+847-->[com.google.firebase:firebase-common:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/c04dec59aa38b264807bfee5f10b35c7/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+848            android:name="com.google.firebase.provider.FirebaseInitProvider"
+848-->[com.google.firebase:firebase-common:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/c04dec59aa38b264807bfee5f10b35c7/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+849            android:authorities="com.uidrive.user.firebaseinitprovider"
+849-->[com.google.firebase:firebase-common:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/c04dec59aa38b264807bfee5f10b35c7/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+850            android:directBootAware="true"
+850-->[com.google.firebase:firebase-common:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/c04dec59aa38b264807bfee5f10b35c7/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+851            android:exported="false"
+851-->[com.google.firebase:firebase-common:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/c04dec59aa38b264807bfee5f10b35c7/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+852            android:initOrder="100" />
+852-->[com.google.firebase:firebase-common:21.0.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/c04dec59aa38b264807bfee5f10b35c7/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+853        <!--
+854         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+855         with the application context. This config is merged in with the host app's manifest,
+856         but there can only be one provider with the same authority activated at any given
+857         point; so if the end user has two or more different apps that use Facebook SDK, only the
+858         first one will be able to use the provider. To work around this problem, we use the
+859         following placeholder in the authority to identify each host application as if it was
+860         a completely different provider.
+861        -->
+862        <provider
+862-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:32:9-35:40
+863            android:name="com.facebook.internal.FacebookInitProvider"
+863-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:33:13-70
+864            android:authorities="com.uidrive.user.FacebookInitProvider"
+864-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:34:13-72
+865            android:exported="false" />
+865-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:35:13-37
+866
+867        <receiver
+867-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:37:9-43:20
+868            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+868-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:38:13-86
+869            android:exported="false" >
+869-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:39:13-37
+870            <intent-filter>
+870-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:40:13-42:29
+871                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+871-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:41:17-95
+871-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:41:25-92
+872            </intent-filter>
+873        </receiver>
+874        <receiver
+874-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:44:9-50:20
+875            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+875-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:45:13-118
+876            android:exported="false" >
+876-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:46:13-37
+877            <intent-filter>
+877-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:47:13-49:29
+878                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+878-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:48:17-103
+878-->[com.facebook.android:facebook-core:18.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/89873868ad18059382f1ce729e9f252c/transformed/jetified-facebook-core-18.0.3/AndroidManifest.xml:48:25-100
+879            </intent-filter>
+880        </receiver>
+881
+882        <provider
+882-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:29:9-37:20
+883            android:name="androidx.startup.InitializationProvider"
+883-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:30:13-67
+884            android:authorities="com.uidrive.user.androidx-startup"
+884-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:31:13-68
+885            android:exported="false" >
+885-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:32:13-37
+886            <meta-data
+886-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:34:13-36:52
+887                android:name="androidx.work.WorkManagerInitializer"
+887-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:35:17-68
+888                android:value="androidx.startup" />
+888-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:36:17-49
+889            <meta-data
+889-->[androidx.emoji2:emoji2:1.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/0c49819385ae76422b86734e509d88e6/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+890                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+890-->[androidx.emoji2:emoji2:1.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/0c49819385ae76422b86734e509d88e6/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+891                android:value="androidx.startup" />
+891-->[androidx.emoji2:emoji2:1.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/0c49819385ae76422b86734e509d88e6/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+892            <meta-data
+892-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/mikailramadan/.gradle/caches/8.9/transforms/14a39cf079a8e6bd131ff89b6d6680f8/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+893                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+893-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/mikailramadan/.gradle/caches/8.9/transforms/14a39cf079a8e6bd131ff89b6d6680f8/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+894                android:value="androidx.startup" />
+894-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/mikailramadan/.gradle/caches/8.9/transforms/14a39cf079a8e6bd131ff89b6d6680f8/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+895            <meta-data
+895-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+896                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+896-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+897                android:value="androidx.startup" />
+897-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+898        </provider>
+899
+900        <service
+900-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:39:9-45:35
+901            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+901-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:40:13-88
+902            android:directBootAware="false"
+902-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:41:13-44
+903            android:enabled="@bool/enable_system_alarm_service_default"
+903-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:42:13-72
+904            android:exported="false" />
+904-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:43:13-37
+905        <service
+905-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:46:9-52:35
+906            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+906-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:47:13-84
+907            android:directBootAware="false"
+907-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:48:13-44
+908            android:enabled="@bool/enable_system_job_service_default"
+908-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:49:13-70
+909            android:exported="true"
+909-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:50:13-36
+910            android:permission="android.permission.BIND_JOB_SERVICE" />
+910-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:51:13-69
+911        <service
+911-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:53:9-59:35
+912            android:name="androidx.work.impl.foreground.SystemForegroundService"
+912-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:54:13-81
+913            android:directBootAware="false"
+913-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:55:13-44
+914            android:enabled="@bool/enable_system_foreground_service_default"
+914-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:56:13-77
+915            android:exported="false" />
+915-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:57:13-37
+916
+917        <receiver
+917-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:61:9-66:35
+918            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+918-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:62:13-88
+919            android:directBootAware="false"
+919-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:63:13-44
+920            android:enabled="true"
+920-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:64:13-35
+921            android:exported="false" />
+921-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:65:13-37
+922        <receiver
+922-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:67:9-77:20
+923            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+923-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:68:13-106
+924            android:directBootAware="false"
+924-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:69:13-44
+925            android:enabled="false"
+925-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:70:13-36
+926            android:exported="false" >
+926-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:71:13-37
+927            <intent-filter>
+927-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:73:13-76:29
+928                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+928-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:74:17-87
+928-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:74:25-84
+929                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+929-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:75:17-90
+929-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:75:25-87
+930            </intent-filter>
+931        </receiver>
+932        <receiver
+932-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:78:9-88:20
+933            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+933-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:79:13-104
+934            android:directBootAware="false"
+934-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:80:13-44
+935            android:enabled="false"
+935-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:81:13-36
+936            android:exported="false" >
+936-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:82:13-37
+937            <intent-filter>
+937-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:84:13-87:29
+938                <action android:name="android.intent.action.BATTERY_OKAY" />
+938-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:85:17-77
+938-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:85:25-74
+939                <action android:name="android.intent.action.BATTERY_LOW" />
+939-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:86:17-76
+939-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:86:25-73
+940            </intent-filter>
+941        </receiver>
+942        <receiver
+942-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:89:9-99:20
+943            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+943-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:90:13-104
+944            android:directBootAware="false"
+944-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:91:13-44
+945            android:enabled="false"
+945-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:92:13-36
+946            android:exported="false" >
+946-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:93:13-37
+947            <intent-filter>
+947-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:95:13-98:29
+948                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+948-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:96:17-83
+948-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:96:25-80
+949                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+949-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:97:17-82
+949-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:97:25-79
+950            </intent-filter>
+951        </receiver>
+952        <receiver
+952-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:100:9-109:20
+953            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+953-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:101:13-103
+954            android:directBootAware="false"
+954-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:102:13-44
+955            android:enabled="false"
+955-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:103:13-36
+956            android:exported="false" >
+956-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:104:13-37
+957            <intent-filter>
+957-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:106:13-108:29
+958                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+958-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:133:17-79
+958-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:133:25-76
+959            </intent-filter>
+960        </receiver>
+961        <receiver
+961-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:110:9-121:20
+962            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+962-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:111:13-88
+963            android:directBootAware="false"
+963-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:112:13-44
+964            android:enabled="false"
+964-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:113:13-36
+965            android:exported="false" >
+965-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:114:13-37
+966            <intent-filter>
+966-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:116:13-120:29
+967                <action android:name="android.intent.action.BOOT_COMPLETED" />
+967-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:117:17-79
+967-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:117:25-76
+968                <action android:name="android.intent.action.TIME_SET" />
+968-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:118:17-73
+968-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:118:25-70
+969                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+969-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:119:17-81
+969-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:119:25-78
+970            </intent-filter>
+971        </receiver>
+972        <receiver
+972-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:122:9-131:20
+973            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+973-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:123:13-99
+974            android:directBootAware="false"
+974-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:124:13-44
+975            android:enabled="@bool/enable_system_alarm_service_default"
+975-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:125:13-72
+976            android:exported="false" >
+976-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:126:13-37
+977            <intent-filter>
+977-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:128:13-130:29
+978                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+978-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:129:17-98
+978-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:129:25-95
+979            </intent-filter>
+980        </receiver>
+981        <receiver
+981-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:132:9-142:20
+982            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+982-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:133:13-78
+983            android:directBootAware="false"
+983-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:134:13-44
+984            android:enabled="true"
+984-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:135:13-35
+985            android:exported="true"
+985-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:136:13-36
+986            android:permission="android.permission.DUMP" >
+986-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:137:13-57
+987            <intent-filter>
+987-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:139:13-141:29
+988                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+988-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:140:17-88
+988-->[androidx.work:work-runtime:2.10.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/dd44a7d4ec6fe9390e65a618051c1890/transformed/work-runtime-2.10.1/AndroidManifest.xml:140:25-85
+989            </intent-filter>
+990        </receiver>
+991
+992        <uses-library
+992-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/mikailramadan/.gradle/caches/8.9/transforms/d9d9932859208f5d00302c153abe208e/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:23:9-25:40
+993            android:name="android.ext.adservices"
+993-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/mikailramadan/.gradle/caches/8.9/transforms/d9d9932859208f5d00302c153abe208e/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:24:13-50
+994            android:required="false" />
+994-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/mikailramadan/.gradle/caches/8.9/transforms/d9d9932859208f5d00302c153abe208e/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:25:13-37
+995
+996        <service
+996-->[androidx.room:room-runtime:2.6.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/edce587c4a629f4e6f55d5f4895702c4/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+997            android:name="androidx.room.MultiInstanceInvalidationService"
+997-->[androidx.room:room-runtime:2.6.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/edce587c4a629f4e6f55d5f4895702c4/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+998            android:directBootAware="true"
+998-->[androidx.room:room-runtime:2.6.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/edce587c4a629f4e6f55d5f4895702c4/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+999            android:exported="false" />
+999-->[androidx.room:room-runtime:2.6.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/edce587c4a629f4e6f55d5f4895702c4/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+1000        <service
+1000-->[:sinch-android-rtc:4.11.14+dce5931] /Users/mikailramadan/.gradle/caches/8.9/transforms/61fca433f540d3b2576f450738a9eec7/transformed/jetified-sinch-android-rtc-4.11.14+dce5931/AndroidManifest.xml:12:9-18:19
+1001            android:name="com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService"
+1001-->[:sinch-android-rtc:4.11.14+dce5931] /Users/mikailramadan/.gradle/caches/8.9/transforms/61fca433f540d3b2576f450738a9eec7/transformed/jetified-sinch-android-rtc-4.11.14+dce5931/AndroidManifest.xml:13:13-92
+1002            android:exported="true" >
+1002-->[:sinch-android-rtc:4.11.14+dce5931] /Users/mikailramadan/.gradle/caches/8.9/transforms/61fca433f540d3b2576f450738a9eec7/transformed/jetified-sinch-android-rtc-4.11.14+dce5931/AndroidManifest.xml:14:13-36
+1003            <intent-filter>
+1003-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:190:13-192:29
+1004                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+1004-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:191:17-80
+1004-->/Users/mikailramadan/StudioProjects/User-App/app/src/main/AndroidManifest.xml:191:25-77
+1005            </intent-filter>
+1006        </service>
+1007
+1008        <provider
+1008-->[com.squareup.picasso:picasso:2.71828] /Users/mikailramadan/.gradle/caches/8.9/transforms/16ace0891d3035909ec7d6fc5550a867/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+1009            android:name="com.squareup.picasso.PicassoProvider"
+1009-->[com.squareup.picasso:picasso:2.71828] /Users/mikailramadan/.gradle/caches/8.9/transforms/16ace0891d3035909ec7d6fc5550a867/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+1010            android:authorities="com.uidrive.user.com.squareup.picasso"
+1010-->[com.squareup.picasso:picasso:2.71828] /Users/mikailramadan/.gradle/caches/8.9/transforms/16ace0891d3035909ec7d6fc5550a867/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+1011            android:exported="false" />
+1011-->[com.squareup.picasso:picasso:2.71828] /Users/mikailramadan/.gradle/caches/8.9/transforms/16ace0891d3035909ec7d6fc5550a867/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+1012
+1013        <receiver
+1013-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+1014            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+1014-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+1015            android:directBootAware="false"
+1015-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+1016            android:enabled="true"
+1016-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+1017            android:exported="true"
+1017-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+1018            android:permission="android.permission.DUMP" >
+1018-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+1019            <intent-filter>
+1019-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+1020                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+1020-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+1020-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+1021            </intent-filter>
+1022            <intent-filter>
+1022-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+1023                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+1023-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+1023-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+1024            </intent-filter>
+1025            <intent-filter>
+1025-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+1026                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+1026-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+1026-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+1027            </intent-filter>
+1028            <intent-filter>
+1028-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+1029                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+1029-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+1029-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4e5c5a0af3060128045a0bfdf7cea3bd/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+1030            </intent-filter>
+1031        </receiver>
+1032
+1033        <service
+1033-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4c83362f148c8671aca781de4f8e18d6/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:26:9-32:19
+1034            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+1034-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4c83362f148c8671aca781de4f8e18d6/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:27:13-103
+1035            android:exported="false" >
+1035-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4c83362f148c8671aca781de4f8e18d6/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:28:13-37
+1036            <meta-data
+1036-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4c83362f148c8671aca781de4f8e18d6/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:29:13-31:39
+1037                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+1037-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4c83362f148c8671aca781de4f8e18d6/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:30:17-94
+1038                android:value="cct" />
+1038-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/4c83362f148c8671aca781de4f8e18d6/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:31:17-36
+1039        </service>
+1040        <service
+1040-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/8c63eaf3b203bbadbda1c67326a7bea7/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:24:9-28:19
+1041            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+1041-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/8c63eaf3b203bbadbda1c67326a7bea7/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:25:13-117
+1042            android:exported="false"
+1042-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/8c63eaf3b203bbadbda1c67326a7bea7/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:26:13-37
+1043            android:permission="android.permission.BIND_JOB_SERVICE" >
+1043-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/8c63eaf3b203bbadbda1c67326a7bea7/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:27:13-69
+1044        </service>
+1045
+1046        <receiver
+1046-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/8c63eaf3b203bbadbda1c67326a7bea7/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:30:9-32:40
+1047            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+1047-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/8c63eaf3b203bbadbda1c67326a7bea7/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:31:13-132
+1048            android:exported="false" />
+1048-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/8c63eaf3b203bbadbda1c67326a7bea7/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:32:13-37
+1049
+1050        <provider
+1050-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:17:9-21:39
+1051            android:name="com.cardinalcommerce.a.setShadowLayer"
+1051-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:18:13-65
+1052            android:authorities="com.uidrive.user.CCInitProvider"
+1052-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:19:13-66
+1053            android:enabled="true"
+1053-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:20:13-35
+1054            android:exported="true" />
+1054-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:21:13-36
+1055
+1056        <activity
+1056-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:23:9-26:65
+1057            android:name="com.cardinalcommerce.a.setTextLocale"
+1057-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:24:13-64
+1058            android:exported="false"
+1058-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:25:13-37
+1059            android:theme="@style/CardinalSDKTheme.ActionBar" />
+1059-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:26:13-62
+1060        <activity
+1060-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:27:9-31:76
+1061            android:name="com.cardinalcommerce.a.setTextLocales"
+1061-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:28:13-65
+1062            android:exported="false"
+1062-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:29:13-37
+1063            android:theme="@style/CardinalSDKTheme.ActionBar"
+1063-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:30:13-62
+1064            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+1064-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/mikailramadan/.gradle/caches/8.9/transforms/1a6f8a9c142be382474114040019c82b/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:31:13-73
+1065        <activity
+1065-->[com.braintreepayments.api:google-payment:3.3.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/7b7b8171876fde11abf57c57867a49d8/transformed/jetified-google-payment-3.3.1/AndroidManifest.xml:12:9-14:62
+1066            android:name="com.braintreepayments.api.GooglePaymentActivity"
+1066-->[com.braintreepayments.api:google-payment:3.3.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/7b7b8171876fde11abf57c57867a49d8/transformed/jetified-google-payment-3.3.1/AndroidManifest.xml:13:13-75
+1067            android:theme="@style/bt_transparent_activity" />
+1067-->[com.braintreepayments.api:google-payment:3.3.1] /Users/mikailramadan/.gradle/caches/8.9/transforms/7b7b8171876fde11abf57c57867a49d8/transformed/jetified-google-payment-3.3.1/AndroidManifest.xml:14:13-59
+1068
+1069        <meta-data
+1069-->[com.google.android.instantapps:instantapps:1.1.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/af9f2a31b5f90a799e6b7e7b7a088b69/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:10:9-12:33
+1070            android:name="aia-compat-api-min-version"
+1070-->[com.google.android.instantapps:instantapps:1.1.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/af9f2a31b5f90a799e6b7e7b7a088b69/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:11:13-54
+1071            android:value="1" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+1071-->[com.google.android.instantapps:instantapps:1.1.0] /Users/mikailramadan/.gradle/caches/8.9/transforms/af9f2a31b5f90a799e6b7e7b7a088b69/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:12:13-30
+1072        <activity
+1072-->[com.google.android.play:core-common:2.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/abf203665b9a26ce2d4a903d41de3b4e/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+1073            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+1073-->[com.google.android.play:core-common:2.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/abf203665b9a26ce2d4a903d41de3b4e/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:15:13-93
+1074            android:exported="false"
+1074-->[com.google.android.play:core-common:2.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/abf203665b9a26ce2d4a903d41de3b4e/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:16:13-37
+1075            android:stateNotNeeded="true"
+1075-->[com.google.android.play:core-common:2.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/abf203665b9a26ce2d4a903d41de3b4e/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:17:13-42
+1076            android:theme="@style/Theme.PlayCore.Transparent" />
+1076-->[com.google.android.play:core-common:2.0.3] /Users/mikailramadan/.gradle/caches/8.9/transforms/abf203665b9a26ce2d4a903d41de3b4e/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:18:13-62
+1077    </application>
+1078
+1079</manifest>

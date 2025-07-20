@@ -1,0 +1,1558 @@
+[
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_eye.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_eye.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_divider.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/divider.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_your_trips.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_your_trips.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_request_loader.gif.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_request_loader.gif"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_drop_small.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_drop_small.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_covid_feature_view.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/covid_feature_view.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/color_double_date_picker_button_text_selector.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/color/double_date_picker_button_text_selector.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_ub__slide_in_right.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/ub__slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_past.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_past.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_money.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/money.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_mic.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_mic.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/raw_outgoing_ringtone.mp3.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/raw/outgoing_ringtone.mp3"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_card_jcp.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/card_jcp.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_add_card.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_add_card.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_emergency_contact_detail.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_emergency_contact_detail.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_circle_double_color.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_circle_double_color.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_peek_pricing.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_peek_pricing.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_small_contact.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/small_contact.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_button_yellow_dim.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_button_yellow_dim.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_button_yellow_disable.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_button_yellow_disable.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_manage_accounts_24.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/manage_accounts_24.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_circle_yellow.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_circle_yellow.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_call_end.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_call_end.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_small_button_yellow.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_small_button_yellow.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_doted_line.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_doted_line.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_tab_indicator.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_tab_indicator.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_add_home.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_add_home.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_layout_payment_method.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/layout_payment_method.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_d_full_bordor_with_shadow.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/d_full_bordor_with_shadow.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_top_curve_gray_small.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_top_curve_gray_small.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_baseline_car_rental_24.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/baseline_car_rental_24.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-pngs-124:/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_sslogin.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_sslogin.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xhdpi_pickup_dot.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xhdpi/pickup_dot.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_popup_show.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/popup_show.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-hdpi_g_icon.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-hdpi/g_icon.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_bottomsheet_emergency_contact.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_bottomsheet_emergency_contact.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_activity_calling_processing.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/activity_calling_processing.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_map_pin.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_map_pin.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_star_icon_yellow.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_star_icon_yellow.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_banner_common.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_banner_common.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_circle_shape_white_20dp.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/circle_shape_white_20dp.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_bottom_navigation_color_selector.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/bottom_navigation_color_selector.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-ldpi_curve_shape_background.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-ldpi/curve_shape_background.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_messagewarningnormal.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/messagewarningnormal.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_tick_green.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/tick_green.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_empty_tip_background.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/empty_tip_background.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-pngs-124:/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_camera_dialog_layout.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_camera_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_online_payment.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/online_payment.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_sending_request.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_sending_request.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/animator_icon_enabled_to_disabled.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/animator/icon_enabled_to_disabled.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_cartime.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/cartime.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_card.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_card.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_work.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_work.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_activity_splash.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-pngs-124:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_common_profile_card_view.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_common_profile_card_view.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_add_promo.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_add_promo.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_phone.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_language_bottomsheet.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_language_bottomsheet.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_top_curve_ash_gray_small.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_top_curve_ash_gray_small.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_hexoganal_vector.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/hexoganal_vector.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_splash_screen.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/splash_screen.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_show_password_selector.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/show_password_selector.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-hdpi_ub__ic_pin_dropoff.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-hdpi/ub__ic_pin_dropoff.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_bottomsheet_tip_amount.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_bottomsheet_tip_amount.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-pngs-124:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_loudspeaker_enabled_to_disabled.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_loudspeaker_enabled_to_disabled.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_back_arrow_thick.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_back_arrow_thick.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_terms.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/terms.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_d_buttomboarder.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/d_buttomboarder.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_round_button_white.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_round_button_white.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_share.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_filter_applied.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_filter_applied.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxxhdpi_g_icon.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xxxhdpi/g_icon.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxhdpi_g_icon.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xxhdpi/g_icon.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_keke.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/keke.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_bottom_up_lay.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/bottom_up_lay.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-mdpi_g_icon.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-mdpi/g_icon.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_arrow_right.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_arrow_right.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_caricon.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/caricon.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_ub__slide_in_left.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/ub__slide_in_left.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_ub__fade_out_scale_down.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/ub__fade_out_scale_down.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_share.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_share.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_main.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_main.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_bottom_up.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/bottom_up.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_peak_power.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_peak_power.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_bottom_sheet_top_curve_white.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_bottom_sheet_top_curve_white.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxhdpi_g_xl.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xxhdpi/g_xl.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_card.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/card.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_home.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_home.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_receipt.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_receipt.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_bottom_navigation_background.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/bottom_navigation_background.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_baseline_location_on_24.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_button_yellow_with_outline.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_button_yellow_with_outline.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_transparent_bottom_line.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_transparent_bottom_line.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_shape_retry_round.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/shape_retry_round.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_driverrating.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_driverrating.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_arrownextright.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/arrownextright.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-hdpi_ub__ic_pin_pickup.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-hdpi/ub__ic_pin_pickup.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-pngs-124:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-ldpi_custom_progress.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-ldpi/custom_progress.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_baseline_storage_24.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_baseline_storage_24.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxhdpi_g_go.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xxhdpi/g_go.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_banner_layout_service.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_banner_layout_service.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_back_arrow_toolbar.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_back_arrow_toolbar.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxhdpi_app_car_go.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xxhdpi/app_car_go.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_chat.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_chat.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_payment_amount_page.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_payment_amount_page.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_profile.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_profile.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_card_visa.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/card_visa.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_content_main.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_content_main.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/menu_emergency_delete.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/menu/emergency_delete.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_refresh_black_24dp.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_refresh_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_top_curve_white.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_top_curve_white.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_privacy_policy.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/privacy_policy.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_baseline_notifications_24.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_baseline_notifications_24.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_mic_disabled_to_enabled.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_mic_disabled_to_enabled.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_single_day_picker.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/single_day_picker.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_user.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/user.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xhdpi_ub__ic_pin_pickup.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xhdpi/ub__ic_pin_pickup.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-pngs-124:/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_disabled_text_color.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/disabled_text_color.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_support_layout_service.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_support_layout_service.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_baseline_camera_alt_24.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_baseline_camera_alt_24.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_star_yellow_small.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_star_yellow_small.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_circle_shape.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/circle_shape.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_splash_ui.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/splash_ui.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_baseline_contacts_24.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_baseline_contacts_24.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_message_yellow.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_message_yellow.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_sos.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/sos.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_star_yellow.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_star_yellow.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_spinner_design.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_spinner_design.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_mic_disable.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_mic_disable.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_wifi_off.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_wifi_off.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_map_edit.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/map_edit.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_menu.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_button_gray.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_button_gray.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_cancel_your_trip.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_cancel_your_trip.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_tip.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_tip.xml"
+    },
+    {
+        "merged": "com.newtaxiprime.user.app-debug-129:/layout_app_activity_sssocial_details.xml.flat",
+        "source": "com.newtaxiprime.user.app-main-131:/layout/app_activity_sssocial_details.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_history.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/history.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-hdpi_dest_dot.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-hdpi/dest_dot.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_update_view.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/update_view.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_slide_up_animation.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/slide_up_animation.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_slide_left_right.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/slide_left_right.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_privacy.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/privacy.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_activity_custom_dialog.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/activity_custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_small_button_gray.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_small_button_gray.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_sssocial_details.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_sssocial_details.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_emergency_contact.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_emergency_contact.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_car_details.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_car_details.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_button_yellow.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_button_yellow.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_filter_not_applied.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_filter_not_applied.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_hide_eye.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_hide_eye.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_activity_profile_menu.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/activity_profile_menu.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/raw_outgoint_call_connection.mp3.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/raw/outgoint_call_connection.mp3"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_star_en_icon.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_star_en_icon.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_activity_cars_available.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/activity_cars_available.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_common_header.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_common_header.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_schedule_layout.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_schedule_layout.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-pngs-124:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_button_green.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_button_green.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_filter_active.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_filter_active.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_information.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/information.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/animator_strike_thru_path_disabled_to_enabled.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/animator/strike_thru_path_disabled_to_enabled.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_back_arrow.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_back_arrow.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_call_curve_button_yellow.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_call_curve_button_yellow.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_number_verfication.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_number_verfication.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_activity_permission_over_view.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/activity_permission_over_view.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxhdpi_g_x.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xxhdpi/g_x.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_next.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/next.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_content_copy.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_content_copy.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_design_bottom_sheet_slide_in.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_cb_face_out.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/cb_face_out.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_promo_amount_layout.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_promo_amount_layout.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_icons_background.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_icons_background.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_card_amex.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/card_amex.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_round_shape_corner_20dp.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/round_shape_corner_20dp.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_shape_retry_round_selected.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/shape_retry_round_selected.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_loudspeaker.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_loudspeaker.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_user_choice_items.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_user_choice_items.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_design_bottom_sheet_slide_out.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_schedule_ride.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_schedule_ride.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_close_round.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_close_round.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_row_load.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/row_load.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_otp_verification.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_otp_verification.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_bottom_navigation_background.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/bottom_navigation_background.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_button_white_with_outline.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_button_white_with_outline.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_loader_view.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_loader_view.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_card_unionpay.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/card_unionpay.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xhdpi_dest_dot.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xhdpi/dest_dot.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxhdpi_app_car_xl.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xxhdpi/app_car_xl.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_preference.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/preference.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_currency.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_currency.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/menu_bottom_navigation_menu.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_splash.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/splash.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_paypal.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/paypal.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_rety_selector.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/rety_selector.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_button_black.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_button_black.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_permission_contact.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_permission_contact.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_nav_header_main.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_nav_header_main.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_close.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_close.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_slider_background.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_slider_background.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_add_wallet.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_add_wallet.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/color_double_date_picker_button_text_selector_ios.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/color/double_date_picker_button_text_selector_ios.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_contact.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_contact.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_star_icon.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_star_icon.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_not_chats.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_not_chats.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_small_button_white.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_small_button_white.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_filled_tip_background.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/filled_tip_background.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_social_login_view.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_social_login_view.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_emergency_alert.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_emergency_alert.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_price_layout.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_price_layout.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-hdpi_infoicon.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-hdpi/infoicon.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_custom_rating.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_custom_rating.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_back_arrow_white.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_back_arrow_white.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_baseline_mic_24.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_baseline_mic_24.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_referral.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/referral.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxhdpi_ub__ic_pin_pickup.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xxhdpi/ub__ic_pin_pickup.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/animator_icon_disabled_to_enabled.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/animator/icon_disabled_to_enabled.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_car.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/car.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_layout_gray.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_layout_gray.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_motorbike.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/motorbike.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_loudspeaker_disabled_to_enabled.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_loudspeaker_disabled_to_enabled.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xhdpi_g_icon.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xhdpi/g_icon.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/animator_strike_thru_gap_enable_to_disabled.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/animator/strike_thru_gap_enable_to_disabled.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_popup_permission_helper.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/popup_permission_helper.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_baseline_home_24.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/baseline_home_24.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_curve_shape_background_border.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/curve_shape_background_border.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_right_arrow.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_right_arrow.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_support_common.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_support_common.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_schedule.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/schedule.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_bar_main.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_layout_animation_bottom_up.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/layout_animation_bottom_up.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_payment_page.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_payment_page.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_checksymbol.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/checksymbol.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/animator_strike_thru_path_enabled_to_disabled.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/animator/strike_thru_path_enabled_to_disabled.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_spinner_layout.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/spinner_layout.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-hdpi_ic_booking_prime_map_topview.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-hdpi/ic_booking_prime_map_topview.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/raw_map_style.json.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/raw/map_style.json"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_wallet.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_wallet.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_circle_shape_light_gray.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/circle_shape_light_gray.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_round_black.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_round_black.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_upcoming.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_upcoming.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_default_profile_pic.jpg.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_default_profile_pic.jpg"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_wallet_transfer.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_wallet_transfer.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_recyclerview_adapter_referral_friends_status_sing_row.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_recyclerview_adapter_referral_friends_status_sing_row.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_round_button_white_with_outline.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_round_button_white_with_outline.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_promo_details.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_promo_details.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_addphoto_header.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/addphoto_header.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_popup_hide.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/popup_hide.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_place_search.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_place_search.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxhdpi_app_car_x.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xxhdpi/app_car_x.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_design_snackbar_out.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_contact_admin.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/contact_admin.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_baseline_settings_24.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/baseline_settings_24.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_update_filters.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/update_filters.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_chat_send.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_chat_send.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_reload.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_reload.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-hdpi_pickup_dot.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-hdpi/pickup_dot.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_call_answering_page_background.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/call_answering_page_background.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_box.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_box.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_bar_home_toolbar.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_bar_home_toolbar.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_toolbar.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_toolbar.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxhdpi_ub__ic_pin_dropoff.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xxhdpi/ub__ic_pin_dropoff.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_covid.jpg.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/covid.jpg"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_dot_loader.gif.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/dot_loader.gif"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_item_animation_bottom_up.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/item_animation_bottom_up.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_time.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_time.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_card_diner.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/card_diner.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_circle_smalll.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_circle_smalll.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_permission_phone.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_permission_phone.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_round_button_gray.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_round_button_gray.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_custom_ratingbar_empty.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/custom_ratingbar_empty.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_signout.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_signout.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_custom_ratingbar_filled.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/custom_ratingbar_filled.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_show_eye.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/show_eye.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_activity_payment_web_view.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/activity_payment_web_view.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_tag.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/tag.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_cb_fade_in.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/cb_fade_in.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_fare_breakdown.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_fare_breakdown.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_filter.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_filter.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/animator_strike_thru_gap_disabled_to_enabled.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/animator/strike_thru_gap_disabled_to_enabled.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_menu_dots.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/menu_dots.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_a_notification_icon.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_a_notification_icon.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_design_snackbar_in.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_social_facebook_view.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_social_facebook_view.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_location_mark.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_location_mark.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_permission_call.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_permission_call.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_a_app_splash_icon.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_a_app_splash_icon.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_add_wallet_amount.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_add_wallet_amount.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_card_layout.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_card_layout.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_dialogsignup_cancel.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_dialogsignup_cancel.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_card_master.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/card_master.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_slide2.jpg.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/slide2.jpg"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_select_gender.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/select_gender.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_setting.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_setting.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_bottom_sheet_for_language_currency.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_bottom_sheet_for_language_currency.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_slide3.jpg.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/slide3.jpg"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_activity_common_dialog.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/activity_common_dialog.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_star_black.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_star_black.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_hand.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/hand.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_settings.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/settings.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_custom_corner_draw_emergency.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/custom_corner_draw_emergency.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_show_referral_option.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_show_referral_option.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_item_permission_list.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/item_permission_list.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_mic_enable.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_mic_enable.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_layout_seat.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/layout_seat.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_peek_price_info_tooltip_banner.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/peek_price_info_tooltip_banner.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_mic_enabled_to_disabled.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_mic_enabled_to_disabled.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_slide4.jpg.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/slide4.jpg"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_item_progress.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_item_progress.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_acitvity_signin_signup.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_acitvity_signin_signup.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_permission_location.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_permission_location.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_driver_not_accept.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_driver_not_accept.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_schedule_ride_detail_.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_schedule_ride_detail_.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_enter_phone_number.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_enter_phone_number.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_a_app_logo.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_a_app_logo.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_ub__slide_out_right.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/ub__slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_cancel.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_cancel.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_map_location_white.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_map_location_white.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_roundnextbuttonlayout.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/roundnextbuttonlayout.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_cursor_color.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_cursor_color.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_activity_ss_resetpassword.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/activity_ss_resetpassword.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_slide1.jpg.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/slide1.jpg"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_location_search.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/location_search.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_current_location.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_current_location.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_ub__slide_out_left.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/ub__slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_loud_speaker_enable.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_loud_speaker_enable.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_alert_yellow.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_alert_yellow.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xxhdpi_map_whitesuv.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xxhdpi/map_whitesuv.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_curve_button_white.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_curve_button_white.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable-xhdpi_ub__ic_pin_dropoff.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable-xhdpi/ub__ic_pin_dropoff.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_siren.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/siren.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_dropdown.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_dropdown.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_circle.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_circle.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_card_discover.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/card_discover.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_top_curve_gray.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_top_curve_gray.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_language.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_language.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_permission_camera.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_permission_camera.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_d_topbordor.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/d_topbordor.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_google.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_google.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_permission_gallery.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_permission_gallery.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_instructions.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/instructions.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_schedule_picker_car.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_schedule_picker_car.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_filter_view.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/filter_view.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_loud_speaker_diable.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_loud_speaker_diable.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/menu_activity_main_drawer.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_item_progress.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/item_progress.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_custom_emergency_dialog.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/custom_emergency_dialog.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_loader.gif.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_loader.gif"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_dialog_logout.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/dialog_logout.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_driver_contact.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_driver_contact.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_adapter_firebase_chat_single_row.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_adapter_firebase_chat_single_row.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_ic_peak_car.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/ic_peak_car.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/xml_provider_paths.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/anim_bottom_down.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/anim/bottom_down.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_pickup_small.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_pickup_small.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_driver_profile_card_view.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_driver_profile_card_view.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_support.png.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/support.png"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_circular_border.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/circular_border.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_d_buttomtopboarder.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/d_buttomtopboarder.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_app_ic_facebook.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/app_ic_facebook.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_en_route.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_en_route.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_app_activity_trip_details.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/app_activity_trip_details.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_d_topboarder.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/d_topboarder.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/layout_activity_sos_.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/layout/activity_sos_.xml"
+    },
+    {
+        "merged": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-debug-129:/drawable_bottom_navigation_color_selector.xml.flat",
+        "source": "/Users/mikailramadan/.gradle/daemon/8.9/com.newtaxiprime.user.app-main-131:/drawable/bottom_navigation_color_selector.xml"
+    }
+]

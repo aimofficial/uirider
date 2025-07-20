@@ -1,0 +1,12 @@
+//include ':app', ':signinwithapplebutton'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+
+    }
+}
+include ':app'
+include ':app', ':imageslider'
