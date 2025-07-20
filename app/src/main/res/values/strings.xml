@@ -5,8 +5,7 @@
     <!ENTITY driverbundle "com.newtaxiprime.driver">
     <!ENTITY siteurl "http://192.168.1.171:8888/">
     <!ENTITY facebookKey "#FACEBOOK KEY#">
-<!--    <!ENTITY googleMapKey "AIzaSyAih4jUUOk1zpbwkDNn2j6Q3Hz5rkyXSyg12">-->
-    <!ENTITY googleMapKey "AIzaSyAih4jUUOk1zpbwkDNn2j6Q3Hz5rkyXSyg">
+    <!ENTITY googleMapKey "">
     <!ENTITY googleAutoCompleteKey "#YOUR AUTOCOMPLETE API KEY#">
     <!ENTITY googleClientId "">
     <!ENTITY firebaseDbMode "live">
